@@ -206,7 +206,7 @@ static int check_errors(struct fsi_master_aspeed *aspeed, int err)
 				be32_to_cpu(mresp0),
 				be32_to_cpu(mstap0),
 				be32_to_cpu(mesrb0));
-	};
+	}
 
 	if (err == -EIO) {
 		/* Check MAEB (0x70) ? */
